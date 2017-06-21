@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="X-Frame-Options" content="allow">
+    <link rel="stylesheet" href="/css/flexboxgrid.css" type="text/css">
+    <style type="text/css">
+      .form-row {
+        padding: 10px 0;
+        display: flex;
+      }
+      .form-row label {
+        padding-right: 10px;
+      }
+      .form-row input {
+        flex: 1;
+      }
+
+      .container-column {
+        display: flex;
+      }
+      .main {
+        flex: 3;
+        order: 2;
+      }
+      .second {
+        flex: 1;
+        order: 1;
+      }
+      .third {
+        flex: 1;
+        order: 3;
+      }
+    </style>
+  </head>
+    <body>
+      <h1>Test flexbox</h1>
+      <div class="container">
+        <form class="" action="index.html" method="post">
+          <div class="form-row">
+            <label for="nom">Nom</label>
+            <input type="text" name="" value="" id="nom">
+          </div>
+          <div class="form-row">
+            <label for="animal">Animal préféré</label>
+            <input type="text" name="" value="" id="animal">
+          </div>
+        </form>
+      </div>
+
+      <div class="container-column">
+        <div class="main">
+          <h4>Main</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="second">
+          <h4>Second</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="third">
+          <h4>Third</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+
+
+
+    </body>
+  </html>
